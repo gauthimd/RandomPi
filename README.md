@@ -8,3 +8,8 @@ enable the SSH server, install the apps sl, toilet, lolcat, fortune, cowsay, and
 create a directory ~/bin and add it to $PATH. It updates customizes vim and sets the
 delek color scheme. It will run sudo apt-get update & upgrade and when the script is
 complete it will reboot the pi.
+
+##upgrade.sh
+This short script runs sudo apt-get update and sudo apt-get upgrade. Usually I put a 
+symbolic link called upgrade to this script in a bin folder so all I need to type is
+upgrade
