@@ -13,3 +13,6 @@ complete it will reboot the pi.
 This short script runs sudo apt-get update and sudo apt-get upgrade. Usually I put a 
 symbolic link called upgrade to this script in a bin folder so all I need to type is
 upgrade
+
+##LAMPsetup.sh
+These commands get you a basic Apache2, MySQL, PHP5 server setup running. As I figure out the configurations I'll include those commands in this script
